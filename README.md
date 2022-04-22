@@ -2,7 +2,7 @@
 
 This application is to demonstrate how to implement Feature Flag with spring cloud config server
 
-![feature-flag-architecture](img/feature-flag-architecture.png)
+![feature-flag-architecture](cloud_config_arch.png)
 ## Dependencies
 Application need to fetch the configuration from config server, so `build.gradle` should have the below dependency
 * Spring cloud config `implementation 'org.springframework.cloud:spring-cloud-starter-config:3.1.0'`
